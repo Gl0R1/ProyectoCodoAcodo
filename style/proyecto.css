@@ -1,0 +1,36 @@
+nav {
+  background-color: rgb(75, 1, 75);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 3%;
+  padding-right: 5%;
+  
+}
+
+
+ul li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+h1 {
+  color: white;
+  font-size: 45px;
+}
+.a{
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.a:hover {
+  color: aqua;
+  cursor: grab;
+}
+
+.container {
+  margin-top: 20px;
+}

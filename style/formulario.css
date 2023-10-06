@@ -1,0 +1,59 @@
+body {
+  background-image: url(img/fondo2.webp);
+  background-size: 100w, 100h;
+  background-attachment: fixed;
+  margin: 0;
+}
+/* esto es para que la imagen del background sea responsive; */
+
+
+form {
+  width: 450px;
+  margin: auto;
+  background: rgba(243, 199, 55, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+
+h2 {
+  color: #4b4a4a;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+}
+
+
+textarea {
+  min-height: 200px;
+  max-height: 400px;
+  max-width: 100%;
+}
+
+
+#boton {
+  background: #c46002;
+  color: rgb(250, 253, 253);
+  padding: 20px;
+  border: 1px solid aqua;
+}
+
+#boton:hover {
+  cursor: pointer;
+}
+/* @media son condicionales de estilos como un if */
+@media (max-width: 480px) {
+  form{
+  width: 100%;}
+}

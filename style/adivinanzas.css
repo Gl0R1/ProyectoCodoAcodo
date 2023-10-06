@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&family=Pacifico&family=Righteous&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+
+h1, h2 {
+  font-family: 'Mulish', sans-serif;
+  font-size: 22px;
+  color: rgb(21,160,133,.7);
+  line-height: 1.2;
+  margin-top: 0;
+  box-sizing: border-box;
+  
+}
+p {
+  color: #666;
+}
+
+.imagen{
+  padding-left: 190px;
+  max-height: 240px;
+}
+
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 80px;
+  background-color: #3cccd6;
+  
+  
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  text-align: center;
+  gap: 5rem;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #eceff1;
+  font-family: 'Righteous', cursive;
+  font-size: 25px;
+}
+
+.nav-list a:hover {
+  color: #ffbc0e;
+}
+
+
+
+
