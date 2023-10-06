@@ -173,27 +173,6 @@ header {
   margin-top: 40px;
 }
 
-.contenedor {
-  display: flex;
-  justify-content: center;
-  color: rgb(110, 109, 109);
-  margin: 40px 160px;
-  object-fit: cover;
-}
-
-.imagen {
-  width: 100%;
-  height: 400px;
-  margin-left: 50px;
-}
-
-.contenedor h1 {
-  color: rgb(7, 153, 179);
-  text-align: center;
-}
-.contenedor p {
-  margin-top: 40px;
-}
 @media (max-width: 768px) {
   .container {
     display: block;
@@ -203,7 +182,34 @@ header {
   .img {
     margin-right: 0px;
   }
+  .container h1 {
+    margin-top: 15px;
+  }
 }
+
+.contenedor {
+
+  display: flex;
+  justify-content: center;
+  color: rgb(110, 109, 109);
+  margin: 100px 160px;
+  object-fit: cover;
+}
+
+.imagen {
+  width: 100%;
+  height: 360px;
+  
+}
+
+.contenedor h1 {
+  color: rgb(7, 153, 179);
+  text-align: center;
+}
+.contenedor p {
+  margin: 0px 30px 20px 50px;
+}
+
 
 @media (max-width: 768px) {
   .contenedor {
@@ -215,6 +221,13 @@ header {
   .imagen {
     margin-left: 0px;
   }
+  .contenedor h1 {
+    margin-top: 60px;
+  }
+  .contenedor p {
+    margin: 20px 0px 10px 0px;
+  }
+
 }
 
 .descripcion {
